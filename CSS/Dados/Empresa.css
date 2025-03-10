@@ -1,0 +1,12 @@
+#Categoria {
+    width: 14rem;
+}
+
+#Nome-empresa {
+    width: 12rem;
+}
+
+#voltar:hover {
+    color: orange;
+
+}

@@ -1,0 +1,94 @@
+.contacts {
+
+    margin-top: 4rem;
+
+    .zap {
+        margin-top: 4rem;
+        background-color: darkgreen;
+        color: greenyellow;
+        padding: 50px;
+        margin-left: 10rem;
+        position: relative;
+        bottom: 6rem;
+        text-decoration: none;
+        left: 4rem;
+        font-size: larger;
+        border-radius: 10px;
+        border: 2px solid black;
+        transition: 1s ease-in;
+    }
+
+    .zap:hover {
+        background-color: greenyellow;
+        color: darkgreen;
+        transform: scale(1.2);
+
+    }
+
+    .telefone {
+        position: relative;
+        left: 6rem;
+        bottom: 6rem;
+        padding: 50px;
+        background-color: gray;
+        color: white;
+        text-decoration: none;
+        border: 2px solid black;
+        border-radius: 10px;
+        transition: 1s ease-in;
+        font-size: larger;
+
+    }
+
+    .telefone:hover {
+        background-color: white;
+        color: gray;
+        transform: scale(1.2);
+
+    }
+
+    .email {
+        position: relative;
+        left: 9rem;
+        bottom: 6rem;
+        background-color: brown;
+        color: white;
+        text-decoration: none;
+        border: 2px solid black;
+        border-radius: 10px;
+        padding: 50px;
+        transition: 1s ease-in;
+        font-size: larger;
+
+    }
+
+    .email:hover {
+        color: brown;
+        background-color: aliceblue;
+        transform: scale(1.2);
+
+    }
+
+    .Twitter {
+        position: relative;
+        background-color: black;
+        color: white;
+        text-decoration: none;
+        left: 13rem;
+        bottom: 6rem;
+        padding: 50px 60px;
+        border-radius: 10px;
+        border: 2px solid white;
+        transition: 1s ease-in;
+        font-size: larger;
+
+    }
+
+    .Twitter:hover {
+        background-color: white;
+        color: black;
+        transform: scale(1.2);
+        border: 2px solid black;
+
+    }
+}

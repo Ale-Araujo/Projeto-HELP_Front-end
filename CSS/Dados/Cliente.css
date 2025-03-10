@@ -1,0 +1,20 @@
+#Data_nasc {
+    position: relative;
+    left: 1rem;
+}
+
+#datan {
+    position: relative;
+    left: 1rem;
+}
+
+.form-header h1::after {
+    content: '';
+    display: block;
+    width: 7rem;
+    height: 0.3rem;
+    background-color: orangered;
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 10px;
+}
