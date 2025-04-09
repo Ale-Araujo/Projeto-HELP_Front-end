@@ -1,0 +1,36 @@
+.form-header {
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-header h1::after {
+    content: '';
+    display: block;
+    width: 14rem;
+    height: 0.3rem;
+    background-color: orangered;
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 10px;
+}
+
+#Entrar {
+    color: white;
+}
+
+#Entrar:hover {
+    color: orange;
+
+}
+
+#Data_nasc {
+    position: relative;
+    right: 100rem;
+
+}
+
+#Data_nasc label {
+    position: relative;
+    right: 5rem;
+}

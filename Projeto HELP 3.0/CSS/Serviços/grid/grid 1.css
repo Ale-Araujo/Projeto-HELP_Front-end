@@ -1,0 +1,99 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* 3 colunas com largura igual */
+    grid-gap: 20px;
+    /* Espaçamento entre os itens */
+    padding: 20px;
+    border-radius: 10px;
+    background-color: transparent;
+    align-items: center;
+    height: 400px;
+}
+
+/* Estilo dos itens da grid */
+.grid-item {
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    padding: 50px;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    height: 15rem;
+    width: 20rem;
+    transition: 0.3s ease-in;
+}
+
+.grid-item:hover {
+    transform: scale(1.2);
+}
+
+#luva {
+    background-image: url(https://soscasacuritiba.com.br/wp-content/uploads/2023/11/qual-nome-da-profissao-pedreiro.webp);
+    background-size: cover;
+}
+
+#Informatica {
+    background-image: url(https://wk.com.br/wp-content/uploads/2018/08/dia-da-informatica-linkedin.jpg);
+    background-size: cover;
+}
+
+#eletricista {
+    background-image: url(https://engehall.com.br/wp-content/uploads/2023/08/curso-de-eletricista-instalador.webp);
+    background-size: cover;
+}
+
+#Mecanico {
+    background-image: url(https://centersystem.com.br/wp-content/uploads/2021/02/happy-mechanic-standing-by-car-1200x675.jpg);
+    background-size: cover;
+}
+
+#encanador {
+    background-image: url(https://encanador24hs.com.br/wp-content/uploads/2013/07/dd.jpg);
+    background-size: cover;
+}
+
+#Limpeza {
+    background-image: url(https://copapel.com.br/images/blog/1660840437limpeza-1.jpg);
+    background-size: cover;
+}
+
+.grid-button {
+    background-color: orangered;
+    text-decoration: none;
+    position: relative;
+    top: 9rem;
+    color: white;
+    padding: 10px 50px;
+    border-radius: 20px;
+    font-size: 1rem;
+    transition: 0.5s;
+    font-weight: 600;
+    bottom: 10px;
+}
+
+.grid-button:hover {
+    background-color: aliceblue;
+    color: orange;
+}
+
+.button-grid {
+    background-color: orangered;
+    text-decoration: none;
+    color: white;
+    padding: 10px 50px;
+    border-radius: 20px;
+    font-size: 1rem;
+    transition: 0.5s;
+    font-weight: 600;
+    margin-right: 5rem;
+    position: relative;
+    top: 9rem;
+    left: 1rem;
+}
+
+.button-grid:hover {
+    background-color: aliceblue;
+    color: orange;
+}
