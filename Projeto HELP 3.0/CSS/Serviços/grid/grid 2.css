@@ -1,0 +1,73 @@
+#renan {
+    border-radius: 100%;
+    width: 140px;
+    height: 130px;
+    position: relative;
+    bottom: 2rem;
+    align-self: center;
+    align-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* 3 colunas com largura igual */
+    grid-gap: 20px;
+    /* Espaçamento entre os itens */
+    padding: 20px;
+    border-radius: 10px;
+    background-color: transparent;
+    align-items: center;
+    height: 400px;
+}
+
+/* Estilo dos itens da grid */
+.grid-item {
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    padding: 50px;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    height: 40rem;
+    width: 25rem;
+}
+
+.help {
+    font-weight: 100;
+    text-align: justify;
+    font-size: medium;
+    font-family: Arial, sans-serif;
+}
+
+.grid-button {
+    background-color: orangered;
+    text-decoration: none;
+    position: relative;
+    color: white;
+    padding: 10px 50px;
+    border-radius: 20px;
+    font-size: 1rem;
+    transition: 0.5s;
+    font-weight: 600;
+    top: 2rem;
+    margin-top: 40rem;
+    margin-right: 2rem;
+}
+
+.grid-button:hover {
+    background-color: aliceblue;
+    color: orange;
+}
+
+#eliseu {
+    position: relative;
+    bottom: 1rem;
+}
+
+#eliseus {
+    margin-bottom: 1rem;
+}

@@ -1,0 +1,55 @@
+#banner img {
+    height: 58%;
+    width: fit-content;
+    right: 2rem;
+}
+
+.shape {
+    background-color: orange;
+    width: 50%;
+    height: 70%;
+    position: absolute;
+    border-radius: 40% 30% 0% 20%;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.feedback {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
+}
+
+.feedback-avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.feedback-content p {
+    display: flex;
+    justify-content: space-between;
+}
+
+.feedback-content {
+    margin-right: 5px;
+
+    .stars {
+        margin-left: 28rem;
+    }
+
+    #toledo {
+        margin-right: 12px;
+    }
+
+
+}
+
+.feedback-content p span {
+    color: black;
+}

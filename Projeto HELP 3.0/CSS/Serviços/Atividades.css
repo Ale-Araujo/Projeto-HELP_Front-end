@@ -1,0 +1,54 @@
+.input-group {
+    align-items: center;
+    position: absolute;
+    left: 50rem;
+    border-radius: 10px;
+    background-color: yellow;
+}
+
+body {
+    background-color: rgb(173, 201, 242);
+}
+
+.service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    gap: 18px;
+    width: 25%;
+    padding: 10px;
+    background-color: wheat;
+    box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow: hidden;
+}
+
+.serv-star {
+    position: absolute;
+    background-color: var(--color-primary-6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.563rem;
+    color: var(--color-primary-1);
+    width: 70px;
+    height: 70px;
+    right: -10px;
+    top: -10px;
+    border-radius: 0px 37.5px 0px 42.5px;
+}
+
+.serv-description {
+    color: #434343;
+    text-align: justify;
+}
+
+h2,
+h1 {
+    text-align: center;
+}
+
+h2 {
+    margin-top: 2rem;
+}

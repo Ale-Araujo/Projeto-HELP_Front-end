@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+    max-width: 100%
+}
+
+body {
+    background-color: #ffb64f;
+
+}
+
+section {
+    padding: 28px 8%;
+
+}
+
+.btn-default {
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: orangered;
+    border-radius: 12px;
+    padding: 10px 14px;
+    font-weight: 600;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color .3s ease;
+    text-decoration: none;
+    color: black;
+}
+
+.btn-default:hover {
+    background-color: wheat;
+    color: orange;
+}
+
+#first {
+    margin-top: 6rem;
+}
+
+#second {
+    margin-top: 3rem;
+}
+
+.social-media-buttons {
+    display: flex;
+    gap: 18px;
+}
+
+.social-media-buttons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 40px;
+    background-color: white;
+    font-size: 1.25rem;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #0e0c0c;
+    box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow .3s ease;
+}
+
+.social-media-buttons a:hover {
+    box-shadow: 0px 0px 12px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+.section-title {
+    color: black;
+    font-size: 1.563rem;
+    font-weight: 500;
+}
+
+.section-subtitle {
+    font-size: 2.1875rem;
+}
+
+#pqs {
+    /*Prestar serviços*/
+    position: relative;
+    top: 5rem;
+}
+
+#qc {
+    /*Quero prestar serviços*/
+    position: relative;
+    top: 2.5rem;
+}
+
+#qd {
+    /*Quero Denunicar alguem*/
+    position: relative;
+    bottom: 0.5rem;
+}
