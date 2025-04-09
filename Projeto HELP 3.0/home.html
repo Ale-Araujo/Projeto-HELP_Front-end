@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina inicial</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="CSS/Styles/style.css">
+    <link rel="stylesheet" href="CSS/Styles/header.css">
+    <link rel="stylesheet" href="CSS/Styles/home.css">
+    <link rel="stylesheet" href="CSS/Styles/menu.css">
+    <link rel="stylesheet" href="CSS/Styles/Testemunials.css">
+    <link rel="stylesheet" href="CSS/Styles/footer.css">
+
+
+</head>
+
+<body>
+
+    <header>
+        <nav id="navbar">
+            <i class="fa-solid fa-wrench" id="nav_logo">HELP</i>
+
+            <ul id="nav_list">
+                <li class="nav-item active">
+                    <a href="#home">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#services">Serviços</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#feedbacks">Avaliações</a>
+                </li>
+            </ul>
+
+            <button class="btn-default">
+                Area Exclusiva
+            </button>
+
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+
+        <!-- arrumar o bug do botão mobile-->
+        <div id="mobile_menu">
+            <ul id="mobile_nav_list">
+                <li class="nav-item">
+                    <a href="#home">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#services">Serviços</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#feedbacks">Avaliações</a>
+                </li>
+            </ul>
+
+            <button class="btn-default">
+                Area Exclusiva
+            </button>
+        </div>
+    </header>
+    <script src="Java Script/script.js"></script>
+    <main id="content">
+
+        <!--Pagina Home-->
+        <section id="home">
+            <div class="shape"></div>
+            <div id="cta">
+                <h1 class="title">Nossos Serviços ao Alcance da Sua
+                    <span>Casa!</span>
+                </h1>
+
+                <p class="description">
+                    Quer saber mais sobre nós? Clique neste botão e leia todos os detalhes sobre nossa história, missão,
+                    valores e visão. Entenda como trabalhamos e o que nos torna únicos no mercado.
+                </p>
+
+                <div id="cta_buttons">
+                    <a href="Sobre-nós ofl.html" class="btn-default">
+                        Sobre-nós
+                    </a>
+                </div>
+
+
+
+                <div class="social-media-buttons">
+                    <a href="">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+
+                    <a href="">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="https://youtu.be/dQw4w9WgXcQ?si=il_WF92SzNVao0EX">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                </div>
+
+            </div>
+            <div id="banner">
+
+                <img src="Imagens/workplace-removebg-preview.png">
+            </div>
+
+        </section>
+
+
+        <!-- Serviços-->
+        <section id="menu">
+            <h2 class="section-title">Serviços</h2>
+            <h3 class="section-subtitle">Nossos melhores serviços estão aqui</h3>
+
+            <!--Quero prestar serviços-->
+            <div id="services">
+                <div class="service">
+                    <div class="serv-star">
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+
+                    <img src="Imagens/Prestar.png" alt="">
+
+                    <h3 class="serv-title">
+                        Prestar serviços
+                    </h3>
+
+                    <Span class="serv-description">
+                        Seja um prestador de serviços independente e aproveite todas as vantagens! Trabalhe no horário
+                        que desejar, escolha seus projetos, e tenha liberdade e flexibilidade para gerenciar seu tempo.
+                    </Span>
+
+                    <div class="enter">
+                        <button class="btn-default" id="first">
+                            Entrar <i class="fa-solid fa-door-open"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!--Quero prestador de serviço-->
+                <div class="service">
+                    <div class="serv-star">
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+
+                    <img class="prestado" src="Imagens/Prestado.png" alt="">
+
+                    <h3 class="serv-title">
+                        Contratar um prestador de serviço
+                    </h3>
+
+                    <Span class="serv-description">
+                        Precisa de serviços profissionais confiáveis e precisos? Você chegou ao lugar certo! Nossa
+                        equipe de especialistas está aqui para ajudá-lo com uma vasta gama de serviços personalizados
+                        para atender às suas necessidades específicas.
+                    </Span>
+
+                    <div class="enter">
+                        <button class="btn-default" id="second">
+                            Entrar <i class="fa-solid fa-door-open"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!--Serviços (Denunciar)-->
+                <div class="service">
+                    <div class="serv-star">
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+
+                    <img src="Imagens/Denunciar.png" alt="">
+
+                    <h3 class="serv-title">
+                        Reclame aqui
+                    </h3>
+
+                    <Span class="serv-description">
+                        Para denunciar um comportamento inadequado ou conteúdo ilegal, entre em contato com nosso
+                        suporte e reporte o problema detalhadamente. Todos os relatos são atendidos com a devida atenção
+                        e levados em consideração para tomada de medidas. Seja responsável e ajude a manter essa
+                        comunidade em um ambiente seguro e agradável para todos. </Span>
+
+                    <div class="enter">
+                        <button class="btn-default">
+                            Entrar <i class="fa-solid fa-door-open"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Feedbacks-->
+
+        <section id="testimonials">
+            <img src="Imagens/Gato.webp" id="testemonials_person" alt="">
+
+            <div id="testemonials_content">
+                <h2 class="section-title">Avaliações</h2>
+                <h3 class="section-subtitle">Veja o que usuarios comentam sobre nós</h3>
+
+
+                <div id="feedbacks">
+                    <div class="feedback">
+                        <img src="Imagens/Pedrão Kanban Scrum.jpg" class="feedback-avatar" alt="">
+
+                        <div class="feedback-content">
+                            <p>
+                                <strong>Pedrão CRUD</strong>
+
+                            </p>
+
+                            <p>Eu tenho uma
+                                estratégia!.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="feedback">
+                        <img src="Imagens/Gato 2.webp" class="feedback-avatar" alt="">
+
+                        <div class="feedback-content">
+                            <p>
+                                <strong>Pedro Toledo</strong>
+                                <span>
+                                </span>
+                            </p>
+
+                            <p>Como voceês tem coragem de fazer um aplicativo assim, eu teria vergonha de postar isso
+                                kkkkkkkkkkkkk</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <a href="Avaliações.html" class="btn-default">
+
+                    Avaliações
+                </a>
+
+
+            </div>
+        </section>
+
+        <!--Rodapé-->
+        <footer>
+            <div id="footer_content">
+                <div id="fotter_contacts">
+                    <h1>HELP</h1>
+                    <p>Chamou? Dá um HELP aí</p>
+
+
+                    <div id="footer_social-media">
+                        <a href="#" class="footer_link" id="Instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+
+                        <a href="#" class="footer_link" id="Facebook">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+
+                        <a href="https://youtu.be/dQw4w9WgXcQ?si=il_WF92SzNVao0EX" class="footer_link" id="Youtube">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+
+
+                    </div>
+                </div>
+
+                <ul class="footer-list">
+                    <li>
+                        <h3>A HELP</h3>
+                    </li>
+
+                    <li>
+                        <a href="Sobre-nós ofl.html" class="footer_link"> Sobre nós </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer_link"> Carreiras</a>
+                    </li>
+
+                    <li>
+                        <a href="Aplicativo mobile.html" class="footer_link"> Aplicativo Mobile </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer_link"> Duvidas Frequentes </a>
+                    </li>
+                </ul>
+
+
+                <ul class="footer-list">
+                    <li>
+                        <h3>Relacionamento ao cliente</h3>
+                    </li>
+
+                    <li>
+                        <a href="Politica de privacidade.html" class="footer_link"> Politica de privacidade </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer_link"> Alerta de segurança </a>
+                    </li>
+
+                    <li>
+                        <a href="Termos de uso.html" class="footer_link"> Termos de uso </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer_link"> Fale conosco </a>
+                    </li>
+                </ul>
+
+                <div id="footer_subscribe">
+                    <h3>Cadastre-se</h3>
+
+                    <p>Fique por dentro das novidades da HELP, cadastre-se!</p>
+
+                    <div id="input_group">
+                        <input type="email" name="" id="">
+                        <button>
+                            <a href="Cadastro.html"><i class="fa-regular fa-envelope"></i></a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="footer_copyright">
+                &#169
+                2024 todos os direitos reservados
+            </div>
+        </footer>
+
+    </main>
+</body>
